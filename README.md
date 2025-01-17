@@ -1,4 +1,4 @@
-# 🤔What is Ununennium 0.5?
+# 🤔 What is Ununennium 0.5?
 This is not my malware. It was made by NotCCR, But I made a GDI only version.
 
 # 🤓 For Skidders.
