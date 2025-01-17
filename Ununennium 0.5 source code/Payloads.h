@@ -1,8 +1,8 @@
 #include "Ununennium 0.5.h"
 //#define hkcu HKEY_CURRENT_USER
 
-//EXTERN_C NTSTATUS NTAPI RtlAdjustPrivilege(DWORD, BYTE, BYTE, PBYTE);
-//EXTERN_C NTSTATUS NTAPI NtRaiseHardError(NTSTATUS, DWORD, DWORD, PDWORD_PTR, DWORD, PDWORD);
+//EXTERN_C NTSTATUS NTAPI RtlAdjustPrivilege(DWORD, BYTE, BYTE, PBYTE); Cringe.
+//EXTERN_C NTSTATUS NTAPI NtRaiseHardError(NTSTATUS, DWORD, DWORD, PDWORD_PTR, DWORD, PDWORD); Cringe as well.
 
 namespace System {
 	DWORD CALLBACK message(LPVOID msg) {
