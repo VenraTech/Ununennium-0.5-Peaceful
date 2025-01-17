@@ -4,7 +4,7 @@ I'm not responsible for any damage made using this
 Work started on: October 22, 2024
 I hate you Gustaa. */
 
-int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR cmdline, int cmdshow) {
+int WINAPI wWinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR cmdline, int cmdshow) {
 	if (MessageBoxA(NULL, "You are about to run the Ununennium.exe trojan horse that will not overwrite your MBR and makes this device usable.\r\nIf you are seeing this without knowing what you just executed, just hit No and nothing bad will happen.\r\nBut, if you\'re taking a risk, or running it in a safe environment, like a virtual machine, hit Yes.\r\n\r\nIf you are running this on physical hardware, shut it down and delete this file quickly!\r\nTubercomiosis is not responsible for any damages made using this malware, reverse engineering it, or any artificial removal of this disclaimer!\r\nStill execute the malware?", "GDI-Trojan.Win32.Ununennium - Malware Execution Alert", MB_ICONWARNING|MB_YESNO|MB_DEFBUTTON2) != IDYES)
 	{
 		exit(0);
