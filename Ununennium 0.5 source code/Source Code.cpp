@@ -58,5 +58,5 @@ int WINAPI wWinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR cmdline, int cmd
 	HANDLE last = CreateThread(NULL, 0, GDI::patstatic, NULL, 0, 0);
 	Bytebeat::Sound6();
 	Sleep(5000);
-	System::CauseCrash();
+//	System::CauseCrash();
 }
